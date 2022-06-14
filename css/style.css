@@ -14,7 +14,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #55e934;
+    --clr-accent: #1D9BF0;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -394,7 +394,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
@@ -406,13 +406,13 @@ header {
 
 .portfolio__item:focus {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-    opacity: .5;
+    /* opacity: .5; */
 }
 
 
